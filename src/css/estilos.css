@@ -20,17 +20,17 @@ body{
 #cuerpo{
     background-color: #505050;
     width: 100%;
+    padding: 20px;
 }
 
 .carta{
     background-color: #505050;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     padding: 20px;
 }
 
 .foto {
+    width: 300px;
     aspect-ratio: 2/3;
     border-radius: 10px;
 }
