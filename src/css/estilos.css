@@ -1,36 +1,95 @@
+/*
+ Paleta de colores beige:
+  - #6B4F3A (Texto)
+  - #8A6A4E (Header)
+  - #B79572 (Lineas)
+  - #D9BE9B (Tarjetas)
+  - #EED7BE (Fondo)
+  - #F7EBDD (cuerpo)
+
+ Paleta de colores grises:
+  - #121212 (Fondo)
+  - #1E1E1E (Header)
+  - #2A2A2A (Tarjeta)
+  - #3B3B3B (Lineas)
+  - #6E6E6E (Texto)
+  - #D6D6D6 (Titulos)
+*/
+
 header{
-    background-color: #909090;
+    background-color: #8A6A4E;
+    color: #F7EBDD;
+    border-radius: 5px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 body{
-    background-color: #606060;
-    color: whitesmoke;
+    background-color: #EED7BE;
 }
 
+h2, h3, h4, h5, h5 {
+    color: #6B4F3A;
+}
 
+p{
+    color: #6B4F3A;
+}
 
-#contenedor{    
+hr{
+    background-color:  #B79572;
+    border: none;
+    height: 2px;
+}
+
+#cuerpo{
+    background-color: #F7EBDD;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    height: auto; 
+}
+
+#contenedor{
     display: flex;
     flex-direction: row;
-    width: 95%;
+    padding: 2.5%;
     margin: 20px auto;
     gap: 20px;
 }
 
-#cuerpo{
-    background-color: #505050;
-    width: 100%;
-    padding: 20px;
-}
+
 
 .carta{
-    background-color: #505050;
+    background-color: #F7EBDD;
     text-align: center;
     padding: 20px;
+    border-radius: 5px;
 }
 
 .foto {
     width: 300px;
     aspect-ratio: 2/3;
+    border-radius: 10px;
+}
+
+.prueba {
+    width: 300px;
+    aspect-ratio: 3/2;
+    border-radius: 10px;
+}
+
+.manojo{
+    display: flex;
+    margin: 20px auto;
+    padding: 0% 20%;
+    justify-content: space-between;
+}
+
+.card_In{
+    border: 2px solid #B79572;
+    padding: 0% 5%;
     border-radius: 10px;
 }
