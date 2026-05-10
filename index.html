@@ -16,7 +16,7 @@
     <div id="contenedor">
         <!-- Carta presentación -->
         <section class="carta">
-            <img src="https://preview.redd.it/this-funny-cat-selfie-v0-xdf3fsna56zc1.jpeg?auto=webp&s=906ffc789cc8166be1770deff4204e1cf1f72171" alt="selfie" class="foto">
+            <img src="src/imagenes/selfie.png" alt="selfie" class="foto">
             <div>
                 <h2>Wilder Julian Lis Ramirez</h2>
                 <h3>Ingeniero de software (en proceso)</h3>
@@ -27,6 +27,17 @@
                 <h3>Contactame por:</h3>
                 <p>Tel: 315 208 2908</p>
                 <p>@: wiliamlix08@gmail.com</p>
+                <hr/>
+                <h3>Audio:</h3>
+                <div>
+                    <button onclick="reproducirAudio()">
+                        Iniciar
+                    </button>
+                    <button onclick="detenerAudio()">
+                        Detener
+                    </button>
+                </div>
+                
             </div>            
         </section>
 
@@ -48,9 +59,17 @@
             <div class="manojo">
                 <div class="card_In">
                     <h3>Bachiller</h3>
+                    <p>
+                        Colegio Nuestra Señora de las Misericordias<br>
+                        Culminación: (2021)
+                    </p>
                 </div>
                 <div class="card_In">
                     <h3>Universidad</h3>
+                    <p>
+                        Universida Manuela Beltrán<br>
+                        Actualmente en curso
+                    </p>
                 </div>
             </div>
             <h2>Cursos y Certificados</h2>
@@ -58,6 +77,18 @@
             <div class="manojo">
                 <div class="card_In">
                     <h3>Cisco</h3>
+                    <p>
+                        Introduction to Cybersecurity<br>
+                        Virtual (2024)
+                    </p>
+                    <p>
+                        Partner: NDG Linux Unhatched<br>
+                        Virtual (2024)
+                    </p>
+                    <p>
+                        CCNA: Switching, Routing, and Wireless Essentials<br>
+                        Virtual (2024)
+                    </p>
                 </div>
                 <div class="card_In">
                     <h3>Google</h3>
@@ -69,19 +100,34 @@
             <h2>Proyectos</h2>
             <hr/>
             <div>
-                <div> <!-- Descripción -->
-                    <h3>Animal Life</h3>
-                    <p>
-                        Proyecto simple realizado en Godot.\n
-                        Un juego que combinaría las mecanicas de "Animal Crossing" y "Stardew Valley", en
-                        celulares, con el añadido de poder jugar con tus amigos sin ningún problema.
-                    </p>
+                <div class="proyecto">
+                    <div class=""> <!-- Descripción -->
+                        <h3>Animal Life</h3>
+                        <p>
+                            Proyecto simple realizado en Godot.<br>
+                            Un juego que combinaría las mecanicas de "Animal Crossing" y "Stardew Valley", en
+                            celulares, con el añadido de poder jugar con tus amigos sin ningún problema.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="src/imagenes/Proy_1.png" alt="animal_life" class="prueba">
+                    </div>
                 </div>
-                <div>
-                    <img src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch2/70010000110440/749cb30819c96dc883bf8ac71dfe5a27469b2ea035f81775dd23ab8b8c82bc9d" alt="animal_life" class="prueba">
+                <div class="proyecto">
+                    <div>
+                        <img src="src/imagenes/Proy_2.png" alt="tienda_tech" class="prueba">
+                    </div>
+                    <div class=""> <!-- Descripción -->
+                        <h3>Tienda Tech</h3>
+                        <p>
+                            Proyecto simple realizado en desarrollo web.<br>
+                            Una tienda online, donde podrás comprar celulares y accesorios.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
     </div>
 </body>
+<script src="src/javascript/audio.js"></script>
 </html>
